@@ -1,0 +1,22 @@
+{
+  "name": "@allen0118/stylelint-config-vue",
+  "version": "0.0.1",
+  "description": "allen's stylelint config",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "stylelint-config-basic",
+    "stylelint-config-vue"
+  ],
+  "author": "yulei <yulei0118@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@allen0118/stylelint-config-basic": "workspace:*",
+    "stylelint-config-recommended-scss": "^14.0.0",
+    "stylelint-config-recommended-vue": "^1.5.0"
+  }
+}

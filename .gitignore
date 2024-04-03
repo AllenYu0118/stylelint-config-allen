@@ -1,0 +1,14 @@
+# Logs
+*.log
+
+node_modules
+dist
+*.local
+.idea
+
+# auto generated files
+.eslintrc-auto-import.json
+auto-imports.d.ts
+
+# macOS 操作系统下的一个隐藏文件，它是由 Finder（macOS 的文件管理器）自动生成的
+.DS_Store
