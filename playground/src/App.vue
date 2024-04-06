@@ -10,7 +10,8 @@ console.log('App.vue')
 .logo {
   height: 6em;
   padding: 1.5em;
-  transition:   filter 300ms;
+  font-weight: bold;
+  transition: filter 300ms;
   will-change: filter;
 }
 
@@ -38,9 +39,8 @@ console.log('App.vue')
   border-radius: 8px;
   box-shadow: 0 2px 12px -4px rgb(0 0 0 / 12%);
 
-
   :deep() {
-    .ant-table .ant-table-thead>tr>th {
+    .ant-table .ant-table-thead > tr > th {
       font-weight: normal;
     }
 
@@ -49,18 +49,18 @@ console.log('App.vue')
       min-width: 26px;
     }
 
-    .ant-table.ant-table-small .ant-table-thead>tr>th {
+    .ant-table.ant-table-small .ant-table-thead > tr > th {
       padding: 5px;
     }
 
-    .ant-table.ant-table-small .ant-table-tbody tr>td {
+    .ant-table.ant-table-small .ant-table-tbody tr > td {
       padding: 20px 5px;
     }
 
     .table-package-business,
     .table-package-residence,
     .table-open {
-      .ant-table-tbody tr>td label.ant-checkbox-wrapper {
+      .ant-table-tbody tr > td label.ant-checkbox-wrapper {
         margin-top: 20px;
       }
     }
@@ -69,15 +69,15 @@ console.log('App.vue')
       text-indent: 18px;
     }
 
-    .ant-tabs-tab+.ant-tabs-tab {
+    .ant-tabs-tab + .ant-tabs-tab {
       margin-left: 28px;
     }
 
-    .ant-tabs-top>.ant-tabs-nav {
+    .ant-tabs-top > .ant-tabs-nav {
       margin-bottom: 5px;
     }
 
-    .ant-tabs-small>.ant-tabs-nav .ant-tabs-tab {
+    .ant-tabs-small > .ant-tabs-nav .ant-tabs-tab {
       min-width: 85px;
     }
   }
