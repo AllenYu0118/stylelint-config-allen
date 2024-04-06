@@ -1,0 +1,11 @@
+{
+  "name": "stylelint-config-allen",
+  "version": "0.0.1",
+  "description": "allen's stylelint config",
+  "scripts": {
+    "release": "pnpm publish --filter='@allen0118/**' -r --no-git-checks"
+  },
+  "keywords": [],
+  "author": "yulei <yulei0118@gmail.com>",
+  "license": "MIT"
+}
